@@ -1,0 +1,16 @@
+.root {
+    li {
+        display: inline-flex;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #fe5f1e;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+
+    :global {
+        .previous {
+           
+        }
+    }
+}

@@ -1,0 +1,32 @@
+import Categories from './components/Categories';
+import Header from './components/Header';
+import PizzaBlock from './components/PizzaBlock';
+import Sort from './components/Sort';
+import './scss/app.scss';
+
+function App() {
+  return (
+    <div className="App">
+      <div class="wrapper">
+        <Header />
+        <div class="content">
+          <div class="container">
+            <div class="content__top">
+              <Categories />
+              <Sort />
+            </div>
+            <h2 class="content__title">Все пиццы</h2>
+            <div class="content__items">
+              <PizzaBlock title="Молдавская" />
+              <PizzaBlock title="Чизбургер-пицца" />
+              <PizzaBlock title="Четыре сыра" />
+              <PizzaBlock title="XXX" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,33 @@
+.root {
+
+    li {
+        display: flex;
+
+        &:hover {
+            background-color:#fe5f1e;
+
+            a { 
+                color: #fff;
+            }
+        }
+    }
+
+    a { 
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid #fe5f1e;
+        border-radius: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+        color: #fe5f1e;
+    }
+
+    :global {
+        .previous {
+           
+        }
+    }
+}

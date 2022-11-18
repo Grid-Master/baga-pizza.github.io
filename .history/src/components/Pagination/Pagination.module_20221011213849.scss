@@ -1,0 +1,23 @@
+.root {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid #fe5f1e;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+
+    :global {
+        .previous {
+           
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.root {
+    display: inline-flex;
+
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid #fe5f1e;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+
+    a { 
+        color: #fe5f1e;
+    }
+
+    :global {
+        .previous {
+           
+        }
+    }
+}

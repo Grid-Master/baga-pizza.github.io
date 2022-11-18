@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+
+    li {
+        padding: 10px;
+        border: 1px solid #fe5f1e;
+    }
+
+    :global {
+        .previous {
+           
+        }
+    }
+}

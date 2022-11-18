@@ -1,0 +1,33 @@
+import React from 'react';
+
+import styles from './Search.module.scss';
+
+const Search = () => {
+  return (
+    <div>
+      <svg
+        className={styles.icon}
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        style="enable-background:new 0 0 24 24;"
+        version="1.1"
+        viewBox="0 0 24 24">
+        <style type="text/css"></style>
+        <g>
+          <circle class="st0" cx="9.8" cy="9.8" r="9.1" />
+          <g>
+            <g>
+              <path
+                class="st1"
+                d="M17.5,14.6l5.2,5.2c0.8,0.8,0.8,2,0,2.8c-0.8,0.8-2,0.8-2.8,0l-5.2-5.2"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+      <input className={styles.root} placeholder="Поиск пиццы ..." />;
+    </div>
+  );
+};
+
+export default Search;
